@@ -21,7 +21,7 @@ module.exports = async ({
     // Qualifier: 'STRING_VALUE'
   };
 
-  const lambdaResult = await lambda.invoke(lambdaParams).promise();
+  const lambdaResult = await lambda.invoke(params).promise();
   const result = JSON.parse(lambdaResult.Payload);
 
   return result;
