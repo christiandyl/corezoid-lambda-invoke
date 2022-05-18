@@ -1,0 +1,22 @@
+{
+  "name": "corezoid-lambda-invoke",
+  "version": "1.0.0",
+  "description": "",
+  "main": "usercode.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christiandyl/corezoid-lambda-invoke.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/christiandyl/corezoid-lambda-invoke/issues"
+  },
+  "homepage": "https://github.com/christiandyl/corezoid-lambda-invoke#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1137.0"
+  }
+}
